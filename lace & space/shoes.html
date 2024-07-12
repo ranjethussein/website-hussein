@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sportswear Brand - Products</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+        }
+        .banner img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .navbar {
+            margin-bottom: 0;
+        }
+        .banner {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="images/L&S LOGO.png" alt="LACE & SPACE" width="100">
+                <span class="ms-2">LACE & SPACE</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMain">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+                        <ul class="dropdown-menu" aria-labelledby="productsDropdown">
+                            <li><a class="dropdown-item" href="socks.html">Socks</a></li>
+                            <li><a class="dropdown-item" href="shoes.html">Shoes</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacts.html">Contacts</a>
+                    </li>
+                </ul>
+                <a href="login.html" class="btn btn-primary me-2">Login</a> <!-- Updated to link to login.html -->
+            </div>
+        </div>
+    </nav>
+
+    <div class="banner">
+        <img src="images/banner-shoes.jpg" alt="Banner Image">
+    </div>
+
+    <!-- Section: Products -->
+    <main class="container py-5">
+        <section id="shoes" class="py-3">
+            <div class="container">
+                <h2>Shoes</h2>
+                <p>Reselling original kicks at prices lower than the suggested retail price.</p>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <!-- Shoe Item 1 -->
+                    <div class="col">
+                        <div class="rounded-3 shadow-sm p-3 zoom-effect">
+                            <div class="zoom">
+                                <img src="images/JA 1 CNY.jpg" class="img-fluid rounded" alt="JA 1 CNY">
+                            </div>
+                            <h5 class="mt-3">JA 1 CNY</h5>
+                            <p>Description.</p>
+                            <div class="rating">
+                                <!-- Example star rating using Font Awesome -->
+                                <span class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <i class="far fa-star"></i>
+                                </span>
+                                <span class="ms-2">8.5/10</span>
+                            </div>
+                            <p class="price">Price: ₱4500.00</p>
+                            <p class="availability">Available</p>
+                        </div>
+                    </div>
+    
+                    <!-- Shoe Item 2 -->
+                    <div class="col">
+                        <div class="rounded-3 shadow-sm p-3 zoom-effect">
+                            <div class="zoom">
+                                <img src="images/JA 1 halloween.jpg" class="img-fluid rounded" alt="JA 1 Halloween">
+                            </div>
+                            <h5 class="mt-3">JA 1 Halloween</h5>
+                            <p>Description.</p>
+                            <div class="rating">
+                                <!-- Example star rating using Font Awesome -->
+                                <span class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </span>
+                                <span class="ms-2">8/10</span>
+                            </div>
+                            <p class="price">Price: ₱5000.00</p>
+                            <p class="availability">Newly Arrived</p>
+                        </div>
+                    </div>
+    
+                    <!-- Shoe Item 3 -->
+                    <div class="col">
+                        <div class="rounded-3 shadow-sm p-3 zoom-effect">
+                            <div class="zoom">
+                                <img src="images/Harden Vol 8.jpg" class="img-fluid rounded" alt="Harden Vol. 8">
+                            </div>
+                            <h5 class="mt-3">Harden Vol. 8</h5>
+                            <p>Description.</p>
+                            <div class="rating">
+                                <!-- Example star rating using Font Awesome -->
+                                <span class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </span>
+                                <span class="ms-2">9.5/10</span>
+                            </div>
+                            <p class="price">Price: ₱5500.00</p>
+                            <p class="availability">Available</p>
+                        </div>
+                    </div>
+    
+                    <!-- Shoe Item 4 -->
+                    <div class="col">
+                        <div class="rounded-3 shadow-sm p-3 zoom-effect">
+                            <div class="zoom">
+                                <img src="images/Lebron nxxt gen.jpg" class="img-fluid rounded" alt="Lebron Nxxt Gen">
+                            </div>
+                            <h5 class="mt-3">Lebron Nxxt Gen</h5>
+                            <p>Description.</p>
+                            <div class="rating">
+                                <!-- Example star rating using Font Awesome -->
+                                <span class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </span>
+                                <span class="ms-2">7/10</span>
+                            </div>
+                            <p class="price">Price: ₱3500.00</p>
+                            <p class="availability">Available</p>
+                        </div>
+                    </div>
+    
+                    <!-- Shoe Item 5 -->
+                    <div class="col">
+                        <div class="rounded-3 shadow-sm p-3 zoom-effect">
+                            <div class="zoom">
+                                <img src="images/PG 6 Hotwheels.jpg" class="img-fluid rounded" alt="PG 6 Hotwheels">
+                            </div>
+                            <h5 class="mt-3">PG 6 Hotwheels</h5>
+                            <p>Description.</p>
+                            <div class="rating">
+                                <!-- Example star rating using Font Awesome -->
+                                <span class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <i class="far fa-star"></i>
+                                </span>
+                                <span class="ms-2">8.5/10</span>
+                            </div>
+                            <p class="price">Price: ₱4550.00</p>
+                            <p class="availability">Available</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center text-lg-start">
+        <div class="container p-4">
+            <div class="row">
+                <!-- Logo and Website Name -->
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0 d-flex align-items-center justify-content-center justify-content-md-start">
+                    <a href="#" class="me-3">
+                        <img src="images/L&S LOGO.png" alt="LACE & SPACE" width="100">
+                    </a>
+                    <p class="m-0 website-name">LACE & SPACE</p>
+                </div>
+    
+                <!-- Contact Information and Copyright -->
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0 text-md-start">
+                        <p class="mb-0"><strong>Contact Information</strong></p>
+                        <p>Ranjet B. Hussein</p>
+                        <p>Cainta, Rizal</p>
+                        <p>202311062@fit.edu.ph</p>
+                        <p>0992296672</p>
+                        <p>&copy; 2024 LACE & SPACE. All rights reserved.</p>
+                    </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
